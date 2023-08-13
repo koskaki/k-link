@@ -1,38 +1,123 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+  --blue:white;
+}
+
+body{
+  display: flex;
+  background-color: #171717;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card{
+  background: #ffffff21;
+  color: white;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 300px;
+ 
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-16 {
+  margin-bottom: 10px;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile .avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card .btn_action {
+  padding: 6px 12px;
+  text-decoration: none;
   color: white;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+  font-size: 16px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card .btn_action span{
+  margin-left: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card .btn_action:hover{
+  background: #CB00BF;
+  border:  1px solid #CB00BF;
+}
+
+.card .btn_actionkuning:hover{
+  background: #ECC900;
+  border:  1px solid #ECC900;
+}
+
+.card .btn_actionkuning2:hover{
+  background: #2927278f;
+  border:  1px solid #ECC900;
+}
+.card .btn_actionmerah:hover{
+  background: red;
+  border:  1px solid red;
+}
+
+.card .btn_actiontt:hover{
+  background: #2927278f;
+  border:  1px solid red;
+}
+
+
+.card .btn_actionhijau:hover{
+  background: green;
+  border:  1px solid green;
+}
+
+.card .btn_actionpod:hover{
+  background: #2927278f;
+  border:  1px solid green;
+}
+
+.bg_content{
+  background: #2927278f;
+}
+
+.rd-12{
+  border-radius: 12px;
+}
+
+.p_8{
+  padding: 8px;
 }
