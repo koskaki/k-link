@@ -10,7 +10,7 @@ function App() {
     <div className="card">
       <div className="card_body">
         <div className="profile text-center ">
-          <img src="/asd.jpg" className="avatar"/>
+          <img src="k-link/asd.jpg" className="avatar"/>
           <h1>hayarahmd</h1>
           <p>Hai, untuk mempermudah perlink'an saya kasih disini semua, terima kasih.</p>
         </div>
